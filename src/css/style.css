@@ -1,0 +1,293 @@
+/*友情链接*/
+/*侧边栏友情链接*/
+.sidebar .friend-link-title {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+}
+
+.friend-link-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.friend-link-item {
+    display: inline-block;
+}
+
+.friend-link-item a {
+    display: block;
+
+    box-sizing: border-box;
+    margin-right: 0;
+    padding: 2px 15px;
+
+    text-decoration: none;
+
+    border-bottom: none;
+}
+
+.friend-link-item a:hover {
+    border-radius: 4px;
+    background: #eee;
+}
+
+/* comments 评论样式来自https://github.com/zgq354/typecho-theme-next/blob/master/next/css/main.css*/
+@media print, screen and (max-width: 767px) {
+    #comments {
+        margin: 10px 20px;
+    }
+}
+
+#comments a {
+    border-bottom: none;
+}
+
+#comments .widget-title {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2.7;
+
+    display: block;
+
+    margin: 0;
+    padding-bottom: 0;
+
+    color: #6e7173;
+    border-bottom: 1px solid #ddd;
+}
+
+#comments .pagination {
+    margin: 35px 0 30px 0;
+
+    text-align: center;
+}
+
+.comments {
+    font-size: 13px;
+
+    margin-top: 60px;
+}
+
+.comment-meta {
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.comment-content a {
+    border-bottom: 1px solid #ddd;
+}
+
+.comment-content a {
+    border-bottom-color: transparent;
+}
+
+.comment-content pre code {
+    padding: 1.5em 2em;
+}
+
+.comment-content p code {
+    display: inline;
+
+    margin: 0 5px;
+    padding: 3px 5px;
+
+    border: 1px solid #ddd;
+}
+
+.comment-list,
+.comment-list ol {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.comment-list {
+    margin-top: -1px;
+}
+
+.comment-list li {
+    padding: 22px 0 0;
+
+    border-top: 1px solid #ddd;
+}
+
+.comment-list li.comment-level-even {
+    background: #fff;
+}
+
+.comment-list li .comment-reply {
+    font-size: .92857em;
+
+    float: right;
+
+    margin-top: -39px;
+}
+
+.comment-meta a {
+    font-size: .92857em;
+
+    color: #999;
+}
+
+.comment-author {
+    display: block;
+
+    margin-bottom: 1px;
+
+    color: #444;
+}
+
+.comment-author .avatar {
+    float: left;
+
+    width: 32px;
+    margin: 6px 7px 0 0;
+    padding: 1px;
+
+    border: 1px solid #ddd;
+}
+
+.comment-author cite {
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+.comment-awaiting-moderation {
+    font-style: normal;
+
+    float: right;
+
+    margin-top: -20px;
+
+    color: #777;
+}
+
+.comment-list .respond {
+    margin: 15px 0;
+
+    border-top: 1px solid #ddd;
+}
+
+.comment-body .respond {
+    margin: 0 0 25px;
+
+    border: none;
+}
+
+.comment-children {
+    margin-left: 22px;
+}
+
+.respond .cancel-comment-reply {
+    font-size: .92857em;
+
+    float: right;
+
+    margin-top: 15px;
+}
+
+#comment-form {
+    padding-top: 12px;
+}
+
+#comment-form label {
+    position: absolute;
+
+    display: block;
+
+    margin: 4px 8px;
+
+    color: #888;
+}
+
+#comment-form input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 8px 6px 8px 45px;
+
+    color: #555;
+    border: solid 1px #d4d4d4;
+    background: #fdfdfd;
+
+    -o-box-sizing: border-box;
+}
+
+button.submit {
+    line-height: 32px;
+
+    display: block;
+
+    width: 100%;
+    height: 38px;
+
+    color: #fff;
+    border: 1px solid #272727;
+    outline: none;
+    background: #272727;
+}
+
+button.submit:hover {
+    border-color: #505050;
+    background: #505050;
+}
+
+textarea.text-area {
+    font-size: 14px;
+    line-height: 1.8;
+
+    overflow: auto;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 174px;
+    margin: 0;
+    padding: 5px 8px 5px;
+
+    color: #555;
+    background: #fdfdfd !important;
+
+    -o-box-sizing: border-box;
+}
+
+/*标签页面*/
+.tag-size-1 {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.tag-size-5 {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.tag-size-10 {
+    font-size: 22px;
+    color: #646464;
+}
+
+.tag-size-15 {
+    font-size: 28px;
+    color: #262626;
+}
+
+/*侧边栏搜索框*/
+.menu-item-search{
+    position: relative;
+}
+
+.site-search {
+    position: absolute;
+    top: 7px;
+    left: 44px;
+    font-size: 12px;
+}
+
+
