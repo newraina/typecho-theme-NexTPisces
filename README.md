@@ -4,10 +4,12 @@ Hexo主题[NexT.Pisces](https://github.com/iissnan/hexo-theme-next/tree/pisces)�
 
 [在线预览](http://newraina.com/)
 
+![demo](screenshot.png)
+
 ## 使用方法
 
 1. 点击`download zip`下载最新源码，修改文件名为`NexTPisces`，解压上传
-2.  后台启用
+2. 后台启用
 3. 新建分类页，缩略名为`categories`，自定义模板选择`categories`
 4. 新建归档页，缩略名为`archive`，自定义模板选择`archives`
 5. 新建标签页，缩略名为`tags`，自定义模板选择`tags`
