@@ -32,11 +32,9 @@ function themeConfig($form)
 
     $sidebarNav = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarNav',
         array('main' => _t('首页'),
-            'about' => _t('关于'),
             'archive' => _t('归档'),
             'categories' => _t('分类'),
             'tags' => _t('标签'),
-            'links' => _t('友链（需要Links插件）'),
             'search' => _t('搜索'),
         ),
         array('main', 'archive', 'tags', 'search',), _t('侧边导航栏设置'));
