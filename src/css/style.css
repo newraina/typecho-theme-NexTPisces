@@ -90,7 +90,7 @@
 }
 
 /*博主的评论样式*/
-.comment-by-author .fn::after {
+.comment-by-author > .comment-author  .fn::after {
 	display: inline-block;
     content: 'ROOT';
     transform: scale(0.8,0.8);
