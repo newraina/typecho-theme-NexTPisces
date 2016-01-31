@@ -70,6 +70,25 @@
     margin-top: 60px;
 }
 
+.comments .comment-about{
+	width: 33.333%;
+	float: left;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.comments .comment-about:first-child{
+  padding-left: 0;
+}
+
+@media (max-width: 637px ){
+  .comments .comment-about{
+  	width: 100%;
+  	float: left;
+    padding: 0;
+  }
+}
+
 .comment-meta {
     margin-top: -5px;
     margin-bottom: 5px;
@@ -208,7 +227,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    max-width: 100%;
+    width: 100%;
     padding: 8px 6px 8px 45px;
 
     color: #555;
@@ -289,5 +308,3 @@ textarea.text-area {
     left: 44px;
     font-size: 12px;
 }
-
-
