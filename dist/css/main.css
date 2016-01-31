@@ -2967,6 +2967,17 @@ body {
   }
 }
 
+/*博主的评论样式*/
+.comment-by-author .fn::after {
+	display: inline-block;
+    content: 'ROOT';
+    transform: scale(0.8,0.8);
+    background: #ddd;
+    color: white;
+    padding: 1px 4px;
+    border-radius: 5px;
+}
+
 .comment-meta {
     margin-top: -5px;
     margin-bottom: 5px;
