@@ -76,7 +76,7 @@ $(document).ready(function () {
   sidebarToggleLines.push(sidebarToggleLine3rd);
 
   var SIDEBAR_WIDTH = '320px';
-  var SIDEBAR_DISPLAY_DURATION = 200;
+  var SIDEBAR_DISPLAY_DURATION = 150;
 
   var sidebarToggleMotion = {
     toggleEl: $('.sidebar-toggle'),
@@ -127,7 +127,7 @@ $(document).ready(function () {
             $('.sidebar .motion-element').velocity(
               'transition.slideRightIn',
               {
-                stagger: 50,
+                stagger: 20,
                 drag: true,
                 complete: function () {
                   self.sidebarEl.trigger('sidebar.motion.complete');
@@ -194,7 +194,7 @@ $(document).ready(function () {
       $brand.size() > 0 && sequence.push({
         e: $brand,
         p: {opacity: 1},
-        o: {duration: 200}
+        o: {duration: 150}
       });
 
       NexT.utils.isMist() && hasElement([$logoLineTop, $logoLineBottom]) &&
@@ -206,13 +206,13 @@ $(document).ready(function () {
       hasElement($title) && sequence.push({
         e: $title,
         p: {opacity: 1, top: 0},
-        o: { duration: 200 }
+        o: { duration: 150 }
       });
 
       hasElement($subtitle) && sequence.push({
         e: $subtitle,
         p: {opacity: 1, top: 0},
-        o: {duration: 200}
+        o: {duration: 150}
       });
 
       if (sequence.length > 0) {
@@ -230,7 +230,7 @@ $(document).ready(function () {
           e: $(element),
           p: {translateX: translateX},
           o: {
-            duration: 500,
+            duration: 300,
             sequenceQueue: false
           }
         };
@@ -267,7 +267,7 @@ $(document).ready(function () {
 
       function postMotion () {
         var postMotionOptions = window.postMotionOptions || {
-            stagger: 100,
+            stagger: 10,
             drag: true
           };
         postMotionOptions.complete = function () {
