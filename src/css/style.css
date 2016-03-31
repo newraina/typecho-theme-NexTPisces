@@ -319,3 +319,8 @@ textarea.text-area {
     left: 44px;
     font-size: 12px;
 }
+
+/*文章内容的无序列表样式*/
+.posts-expand .post-body ul li {
+    list-style: circle;
+}
