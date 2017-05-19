@@ -2,8 +2,6 @@
 
 Hexo主题[NexT.Pisces](https://github.com/iissnan/hexo-theme-next)的Typecho移植版，基于[zgq354](http://blog.izgq.net/)的[NexT.Mist](https://github.com/zgq354/typecho-theme-next)修改制作
 
-[在线预览](http://newraina.com/)
-
 ![demo](screenshot.png)
 
 ## 使用方法
