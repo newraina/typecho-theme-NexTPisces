@@ -35,6 +35,7 @@ function themeConfig($form)
             'archive' => _t('归档'),
             'categories' => _t('分类'),
             'tags' => _t('标签'),
+            'about' => _t('关于'),
             'search' => _t('搜索'),
         ),
         array('main', 'archive', 'tags', 'search',), _t('侧边导航栏设置'));
@@ -52,7 +53,7 @@ function themeConfig($form)
 function getGravatar($email, $s = 40, $d = 'mm', $g = 'g')
 {
     $hash = md5($email);
-    $avatar = "http://gravatar.duoshuo.com/avatar/$hash?s=$s&d=$d&r=$g";
+    $"//cdn.v2ex.com/gravatar/$hash?s=$s&d=$d&r=$g";
     return $avatar;
 }
 
