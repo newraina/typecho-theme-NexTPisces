@@ -19,7 +19,7 @@ if (!empty($this->options->next_cdn) && $this->options->next_cdn) {
     <!-- 使用url函数转换相关路径 -->
     <link rel="stylesheet" href="<?php $this->options->themeUrl('dist/css/main.min.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('vendors/fancybox/source/jquery.fancybox.css'); ?>">
-    <link rel="stylesheet" href="//fonts.useso.com//css?family=Lato:300,400,700,400italic&subset=latin,latin-ext">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext">
     <!-- 将您的favicon图标放在images文件夹下，然后取消下面两句的注释 -->
     <!-- <link rel="shortcut icon" href="<?php $this->options->themeUrl('images/favicon.ico'); ?>"> -->
     <!-- <link rel="apple-touch-icon" href="<?php $this->options->themeUrl('images/icon.png'); ?>"> -->
