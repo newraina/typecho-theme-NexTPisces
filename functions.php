@@ -53,7 +53,7 @@ function themeConfig($form)
 function getGravatar($email, $s = 40, $d = 'mm', $g = 'g')
 {
     $hash = md5($email);
-    $"//cdn.v2ex.com/gravatar/$hash?s=$s&d=$d&r=$g";
+    $avatar = "//cdn.v2ex.com/gravatar/$hash?s=$s&d=$d&r=$g";
     return $avatar;
 }
 
